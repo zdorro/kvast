@@ -1,0 +1,346 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: #987b30;
+    min-width: 1035px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container-big {
+    width: 1015px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 40px;
+    line-height: 61px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.page-header {
+    background-image: url(./img/wheat-back.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 60px;
+    min-height: 490px;
+}
+
+.header-logo {
+    float: left;
+    width: 140px;
+    height: 76px;
+}
+
+.header-logo img {
+    width: 140px;
+    height: 76px;
+}
+
+.header-top {
+    height: 76px;
+    margin-bottom: 120px;
+}
+
+.page-footer {
+    padding: 0;
+}
+
+.main-nav {
+    list-style: none;
+    text-transform: uppercase;
+    float: left;
+    width: 600px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: 60px;
+    padding: 17px 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: rgba(255, 255, 255, 0.3);
+    font-weight: bold;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav li {
+    float: left;
+    margin-right: 54px;
+}
+
+.main-nav li:last-child {
+    margin-right: 0;
+}
+
+.promo {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.news {
+    background-color: #ffffff;
+    padding: 80px 0 110px;
+    margin-bottom: 0;
+}
+
+.new-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.new-items__title {
+    margin: 0 0 74px;
+}
+
+.catalog-item {
+    border-right: 1px solid #e5e5e5;
+    position: relative;
+    padding: 0 33px;
+}
+
+.catalog-item:first-of-type {
+    border-left: 1px solid #e5e5e5;
+}
+
+.kvast__title {
+    margin: 0 0 10px;
+}
+
+.kvas-info {
+    position: absolute;
+    top: 85px;
+    right: 0;
+    width: 200px;
+    padding: 0 25px;
+}
+
+.table-new {
+    float: right;
+    border-collapse: collapse;
+    border: 1px solid #e5e5e5;
+    width: 149px;
+}
+
+.kvast__characteristic,
+.kvast__value {
+    padding: 5px 10px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    border: 1px solid #e5e5e5
+}
+
+.kvast__characteristic {
+    width: 77px;
+    height: 30px;
+}
+
+.kvast__value {
+    width: 72px;
+    height: 30px;
+}
+
+.composition {
+    float: right;
+    margin-top: 11px;
+    font-size: 14px;
+    line-height: 1.714;
+    color: #444444;
+    width: 149px;
+}
+
+.catalog-item img {
+    margin-top: 19px;
+    margin-bottom: 0px;
+    margin-left: 10px
+}
+
+.kvast-description {
+    margin: 0 0 60px;
+    line-height: 30px;
+}
+
+.catalog-item .btn:first-of-type {
+    margin-right: 4px
+}
+
+.kvast__action {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0
+}
+
+.cost {
+    margin-left: auto
+}
+
+.btn-ghost {
+    color: #834700;
+    border: 2px solid #6a3900;
+    background-color: transparent
+}
+
+.btn-primary {
+    color: white;
+    background-color: #834700;
+    border: 2px solid #834700
+}
+
+.btn {
+    display: inline-block;
+    line-height: 1.25;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 11px 20px 15px
+}
+
+.features {
+    background-color: #ffcb78;
+    margin: 0px;
+    padding: 79px 0 75px;
+}
+
+.features ul {
+    display: grid;
+    grid-template-columns: 306px 400px 1fr;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-title {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.feature-item {
+    padding-top: 15px;
+}
+
+
+/* .news {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 110px;
+}
+
+.catalog-item {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 336px;
+    padding-left: 37px;
+    padding-right: 25px;
+    border-right: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+}
+
+.new-items {
+    padding-top: 0;
+    margin-top: 60px;
+}
+
+.catalog-item:first-child {
+    border-right: none;
+}
+
+.catalog-item img {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+
+.kvas-info {
+    position: absolute;
+    top: 85px;
+    right: 0;
+    width: 200px;
+    padding: 0 25px;
+    padding-top: 41px;
+}
+
+.composition {
+    margin-top: 11px;
+    font-size: 14px;
+    line-height: 24px;
+    float: right;
+    width: 148px;
+}
+
+.table-new {
+    border-collapse: collapse;
+    border: 1px solid #e5e5e5;
+    float: right;
+}
+
+.table-new td {
+    border: 1px solid #e5e5e5;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 24px;
+}
+
+.kvast-description {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.catalog-item a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-info {
+    color: #834700;
+    border: 2px solid #834700;
+    padding: 16px 21px;
+    margin-right: 7px;
+}
+
+.btn-buy {
+    color: #ffffff;
+    background-color: #834700;
+    padding: 18px 23px;
+}
+
+.cost {
+    position: absolute;
+    right: 34px;
+    bottom: 0;
+} */
